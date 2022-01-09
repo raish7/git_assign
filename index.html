@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      	<title>Welcome to Airbnb</title>
+      	<meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width, initial-scale=1">
+      	<link rel = "icon" href =  "air1.png" type = "image/x-icon"> 
+  	
+  	  	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  	  	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+      	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<style>
+	.container1 {
+		  position: relative;
+		  text-align: center;
+		  color: black;
+		}
+		.centered {
+		  position: absolute;
+		  top: 40%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		}	
+			.button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #d6185a;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+      padding: 15px;
+      width: 180px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }			
+	</style>	
+</head>
+
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: white;">
+  <a class="navbar-brand" href="#"><img src="air1.png" height="60px" width="80px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Setup</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Safety</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="#">Financials</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container1">
+<img src="https://images.squarespace-cdn.com/content/v1/58893da12994ca3048dbccbd/1554298966204-94IZG3UDVB2VQLXLKZ1Z/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/761A4845.jpg" height="auto" width="100%">
+<div class="centered">
+  <p style="font-size: 4vw;font-family: Poppins">Earn money as an Airbnb host</p><br>
+<button class="button" style="vertical-align:middle"><span>Get Started </span></button><br><br>
+</div>
+</div><br><br><br><br>
+
+<div class="container">
+
+  <h2 style="font-family: Poppins;">More about hosting</h2><br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://a0.muscache.com/pictures/489faa5d-9519-48fa-aa0e-fe9673165e43.jpg" height="auto" width="100%"><br><br>
+        <p style="font-family: Poppins;font-size: 20px;"><b>How to start hosting</b><br>
+        <a href="#">Learn more</a></p><br>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://a0.muscache.com/pictures/b77eb430-aa14-4ceb-a832-109341f798cd.jpg" height="auto" width="100%"><br><br>
+        <p style="font-family: Poppins;font-size: 20px;"><b>Safety</b><br>
+        <a href="#">Learn more</a></p><br>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://a0.muscache.com/pictures/1ad4d764-38a6-464b-8fdd-b0f3339adf2f.jpg" height="auto" width="100%"><br><br>
+        <p style="font-family: Poppins;font-size: 20px;"><b>Financials</b><br>
+        <a href="#">Learn more</a></p><br>
+      </div>
+    </div>'
+  </div><br><br>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <br><p style="font-family: Poppins;font-size: 15px;">About</p>
+          <a href="#" >How Airbnb works</a><br>
+          <a href="#" >Accessibility</a><br>
+          <a href="#">Trust & Safety</a><br>
+          <a href="#" >Newsroom</a><br>
+        </div>
+        <div class="col-sm-4">
+          <br><p style="font-family: Poppins;font-size: 15px;">COMMUNITY</p>
+          <a href="#">Airbnb Magazine</a><br>
+          <a href="#" >Invite friends</a><br>
+          <a href="#" >Careers</a><br>
+        </div>
+        <div class="col-sm-4">
+        <br><p style="font-family: Poppins;font-size: 15px;">SUPPORT</p>
+        <a href="#">Help center</a><br>
+        <a href="#">Cancellation options</a><br>
+        <a href="#">Neighbourhood</a><br>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
